@@ -1,0 +1,29 @@
+.logo-image {
+  height: 40px;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #323232;
+  border: solid 1px #ddd;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+
+nav ul li a:hover {
+  background-color: #494949;
+  color: #fff;
+}
